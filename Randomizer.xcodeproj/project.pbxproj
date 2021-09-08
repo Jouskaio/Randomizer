@@ -16,6 +16,7 @@
 		96C950CD26E9282900FE2661 /* Rubik-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C950CB26E9282900FE2661 /* Rubik-VariableFont_wght.ttf */; };
 		96C950CF26E933AC00FE2661 /* AdventPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C950CE26E933AC00FE2661 /* AdventPro-Medium.ttf */; };
 		96C950D126E933C300FE2661 /* AdventPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C950D026E933C300FE2661 /* AdventPro-Bold.ttf */; };
+		96E838EC26E93F110085F8FF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E838EB26E93F110085F8FF /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		96A3F69226E8E71F0062F53F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96A3F69426E8E7200062F53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A3F69726E8E7200062F53F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		96A3F69926E8E7200062F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A3F69926E8E7200062F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Randomizer/Info.plist; sourceTree = SOURCE_ROOT; };
 		96A3F69E26E8E7210062F53F /* RandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A3F6A226E8E7210062F53F /* RandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerTests.swift; sourceTree = "<group>"; };
 		96A3F6A426E8E7210062F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		96C950CB26E9282900FE2661 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		96C950CE26E933AC00FE2661 /* AdventPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Medium.ttf"; sourceTree = "<group>"; };
 		96C950D026E933C300FE2661 /* AdventPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Bold.ttf"; sourceTree = "<group>"; };
+		96E838EB26E93F110085F8FF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				96C950C326E921FB00FE2661 /* Views */,
 				96A3F69426E8E7200062F53F /* Assets.xcassets */,
 				96A3F69926E8E7200062F53F /* Info.plist */,
+				96E838EB26E93F110085F8FF /* Launch Screen.storyboard */,
 				96A3F69626E8E7200062F53F /* Preview Content */,
 			);
 			path = Randomizer;
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E838EC26E93F110085F8FF /* Launch Screen.storyboard in Resources */,
 				96A3F69826E8E7200062F53F /* Preview Assets.xcassets in Resources */,
 				96C950CF26E933AC00FE2661 /* AdventPro-Medium.ttf in Resources */,
 				96A3F69526E8E7200062F53F /* Assets.xcassets in Resources */,
